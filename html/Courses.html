@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>E-School</title>
+</head>
+
+<body class="hero">
+  <header class="mb-5">
+    <div class="hero">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-sm">
+          <a class="navbar-brand" href="./index.html"><img src="../ICON/Logo.png" alt="Logo" width="150px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./others.html">Others</a>
+              </li>
+              <li class="nav-item mr-5">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary rounded-pill" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  Sign In
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-fullscreen-sm-center">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        <div class="d-flex justify-content-end mb-3">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <form class="flex justify-content-center">
+                          <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                          </div>
+
+                          <!-- 2 column grid layout for inline styling -->
+                          <div class="row mb-4">
+                            <div class="col d-flex justify-content-center gap-4">
+                              <!-- Checkbox -->
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                                <label class="form-check-label" for="form2Example31"> Remember me </label>
+                              </div>
+                              <a href="#!" style="color: #21B573;">Forgot password?</a>
+                            </div>
+                          </div>
+
+                          <!-- Submit button -->
+                          <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-primary mb-4" type="button">Sign</button>
+                          </div>
+
+                          <!-- Register buttons -->
+                          <div class="text-center">
+                            <p>Not a member? <a href="#!" style="color: #21B573;">Register</a></p>
+                            <p>or sign up with:</p>
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-facebook-f" style="color: #21B573;"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-google" style="color: #21B573;"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-twitter" style="color: #21B573;"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-github" style="color: #21B573;"></i>
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section>
+        <div class="container my-5">
+          <div class="text-center justify-content-center">
+            <div class="navbar">
+              <div class="container-fluid">
+                <h1 class="sec-head mb-5">Online Course</h1>
+                <form class="d-flex mb-5" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+
+            <div class="row justify-content-center">
+              <!-- Team item -->
+              <div class="col-xl-3 col-sm-8 mb-5">
+                <div class="bg-white shadow rounded flex py-4 px-4">
+                  <img src="../Photos/Morder pyschology.png" alt="" width="331px" class="img-fluid mb-5 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <p class="card-text">Designation</p>
+                    <button type="button" class="btn d-flex btn-primary rounded-pill mb-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Buy Course</button>
+                    <div class="foot">
+                      <div>
+                        <img src="../ICON/calendar.png" alt="" width="24px">
+                        <span class="sec-stext">Start 20 April, 2021</span>
+                      </div>
+                      <div>
+                        <img src="../ICON/people.png" alt="" width="24px">
+                        <span class="sec-stext">60 seats</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div><!-- End -->
+
+              <!-- Team item -->
+              <div class="col-xl-3 col-sm-8 mb-5">
+                <div class="bg-white shadow rounded flex py-4 px-4">
+                  <img src="../Photos/Morder psyc.png" alt="" width="331px" class="img-fluid mb-5 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <p class="card-text">Designation</p>
+                    <button type="button" class="btn d-flex btn-primary rounded-pill mb-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Buy Course</button>
+                    <div class="foot">
+                      <div>
+                        <img src="../ICON/calendar.png" alt="" width="24px">
+                        <span class="sec-stext">Start 20 April, 2021</span>
+                      </div>
+                      <div>
+                        <img src="../ICON/people.png" alt="" width="24px">
+                        <span class="sec-stext">60 seats</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div><!-- End -->
+
+              <!-- Team item -->
+              <div class="col-xl-3 col-sm-8 mb-5 shadow-md">
+                <div class="bg-white shadow rounded flex py-4 px-4">
+                  <img src="../Photos/Morder pychons.png" alt="" width="331px" class="img-fluid mb-5 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <p class="card-text">Designation</p>
+                    <button type="button" class="btn d-flex btn-primary rounded-pill mb-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Buy Course</button>
+                    <div class="foot">
+                      <div>
+                        <img src="../ICON/calendar.png" alt="" width="24px">
+                        <span class="sec-stext">Start 20 April, 2021</span>
+                      </div>
+                      <div>
+                        <img src="../ICON/people.png" alt="" width="24px">
+                        <span class="sec-stext">60 seats</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div><!-- End -->
+
+            </div>
+            <div class="row justify-content-center">
+              <!-- Team item -->
+              <div class="col-xl-3 col-sm-8 mb-5">
+                <div class="bg-white shadow rounded flex py-4 px-4">
+                  <img src="../Photos/Morder pyschology.png" alt="" width="331px" class="img-fluid mb-5 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <p class="card-text">Designation</p>
+                    <button type="button" class="btn d-flex btn-primary rounded-pill mb-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Buy Course</button>
+                    <div class="foot">
+                      <div>
+                        <img src="../ICON/calendar.png" alt="" width="24px">
+                        <span class="sec-stext">Start 20 April, 2021</span>
+                      </div>
+                      <div>
+                        <img src="../ICON/people.png" alt="" width="24px">
+                        <span class="sec-stext">60 seats</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div><!-- End -->
+
+              <!-- Team item -->
+              <div class="col-xl-3 col-sm-8 mb-5">
+                <div class="bg-white shadow rounded flex py-4 px-4">
+                  <img src="../Photos/Morder psyc.png" alt="" width="331px" class="img-fluid mb-5 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <p class="card-text">Designation</p>
+                    <button type="button" class="btn d-flex btn-primary rounded-pill mb-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Buy Course</button>
+                    <div class="foot">
+                      <div>
+                        <img src="../ICON/calendar.png" alt="" width="24px">
+                        <span class="sec-stext">Start 20 April, 2021</span>
+                      </div>
+                      <div>
+                        <img src="../ICON/people.png" alt="" width="24px">
+                        <span class="sec-stext">60 seats</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div><!-- End -->
+
+              <!-- Team item -->
+              <div class="col-xl-3 col-sm-8 mb-5 shadow-md">
+                <div class="bg-white shadow rounded flex py-4 px-4">
+                  <img src="../Photos/Morder pychons.png" alt="" width="331px" class="img-fluid mb-5 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <p class="card-text">Designation</p>
+                    <button type="button" class="btn d-flex btn-primary rounded-pill mb-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Buy Course</button>
+                    <div class="foot">
+                      <div>
+                        <img src="../ICON/calendar.png" alt="" width="24px">
+                        <span class="sec-stext">Start 20 April, 2021</span>
+                      </div>
+                      <div>
+                        <img src="../ICON/people.png" alt="" width="24px">
+                        <span class="sec-stext">60 seats</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div><!-- End -->
+
+            </div>
+            <div class="row justify-content-center">
+              <!-- Team item -->
+              <div class="col-xl-3 col-sm-8 mb-5">
+                <div class="bg-white shadow rounded flex py-4 px-4">
+                  <img src="../Photos/Morder pyschology.png" alt="" width="331px" class="img-fluid mb-5 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <p class="card-text">Designation</p>
+                    <button type="button" class="btn d-flex btn-primary rounded-pill mb-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Buy Course</button>
+                    <div class="foot">
+                      <div>
+                        <img src="../ICON/calendar.png" alt="" width="24px">
+                        <span class="sec-stext">Start 20 April, 2021</span>
+                      </div>
+                      <div>
+                        <img src="../ICON/people.png" alt="" width="24px">
+                        <span class="sec-stext">60 seats</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div><!-- End -->
+
+              <!-- Team item -->
+              <div class="col-xl-3 col-sm-8 mb-5">
+                <div class="bg-white shadow rounded flex py-4 px-4">
+                  <img src="../Photos/Morder psyc.png" alt="" width="331px" class="img-fluid mb-5 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <p class="card-text">Designation</p>
+                    <button type="button" class="btn d-flex btn-primary rounded-pill mb-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Buy Course</button>
+                    <div class="foot">
+                      <div>
+                        <img src="../ICON/calendar.png" alt="" width="24px">
+                        <span class="sec-stext">Start 20 April, 2021</span>
+                      </div>
+                      <div>
+                        <img src="../ICON/people.png" alt="" width="24px">
+                        <span class="sec-stext">60 seats</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div><!-- End -->
+
+              <!-- Team item -->
+              <div class="col-xl-3 col-sm-8 mb-5 shadow-md">
+                <div class="bg-white shadow rounded flex py-4 px-4">
+                  <img src="../Photos/Morder pychons.png" alt="" width="331px" class="img-fluid mb-5 shadow-sm">
+                  <div class="card-body">
+                    <h5 class="card-title">Modern Psychology</h5>
+                    <p class="card-text">Designation</p>
+                    <button type="button" class="btn d-flex btn-primary rounded-pill mb-4" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Buy Course</button>
+                    <div class="foot">
+                      <div>
+                        <img src="../ICON/calendar.png" alt="" width="24px">
+                        <span class="sec-stext">Start 20 April, 2021</span>
+                      </div>
+                      <div>
+                        <img src="../ICON/people.png" alt="" width="24px">
+                        <span class="sec-stext">60 seats</span>
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+              </div><!-- End -->
+
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div>
+      <input type="checkbox" id="click">
+      <label id="label" for="click">
+        <i class="fab fa-facebook-messenger"></i>
+        <i class="fas fa-times"></i>
+      </label>
+
+      <div class="wrapper">
+        <div class="head-text">
+          Chat with us - Online
+        </div>
+
+        <div class="chat-box">
+          <div class="desc-text">
+            Please provide us with these details so we may assist you better.
+          </div>
+          <form action="#">
+            <div class="field">
+              <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Email Address" required>
+            </div>
+            <div class="field">
+              <button type="submit">Start Chat</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../javascript/main.js"></script>
+</body>
+
+</html>

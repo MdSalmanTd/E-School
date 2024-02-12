@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>E-School</title>
+  </head>
+<body>
+  <header>
+    <div class="hero">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-sm">
+          <a class="navbar-brand" href="./index.html"><img src="../ICON/Logo.png" alt="Logo" width="150px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./others.html">Others</a>
+              </li>
+              <li class="nav-item mr-5">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary rounded-pill" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal">
+                  Sign In
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-fullscreen-sm-center">
+                    <div class="modal-content">
+                      <div class="modal-body">
+                        <div class="d-flex justify-content-end mb-3">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <form class="flex justify-content-center">
+                          <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                          </div>
+                          <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                          </div>
+
+                          <!-- 2 column grid layout for inline styling -->
+                          <div class="row mb-4">
+                            <div class="col d-flex justify-content-center gap-4">
+                              <!-- Checkbox -->
+                              <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                                <label class="form-check-label" for="form2Example31"> Remember me </label>
+                              </div>
+                              <a href="#!" style="color: #21B573;">Forgot password?</a>
+                            </div>
+                          </div>
+
+                          <!-- Submit button -->
+                          <div class="d-grid gap-2 col-6 mx-auto">
+                            <button class="btn btn-primary mb-4" type="button">Sign</button>
+                          </div>
+
+                          <!-- Register buttons -->
+                          <div class="text-center">
+                            <p>Not a member? <a href="#!" style="color: #21B573;">Register</a></p>
+                            <p>or sign up with:</p>
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-facebook-f" style="color: #21B573;"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-google" style="color: #21B573;"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-twitter" style="color: #21B573;"></i>
+                            </button>
+
+                            <button type="button" class="btn btn-link btn-floating mx-1">
+                              <i class="fab fa-github" style="color: #21B573;"></i>
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <input type="checkbox" id="click">
+      <label id="label" for="click">
+         <i class="fab fa-facebook-messenger"></i>
+         <i class="fas fa-times"></i>
+      </label>
+       
+      <div class="wrapper">
+         <div class="head-text">
+            Chat with us - Online
+         </div>
+   
+         <div class="chat-box">
+            <div class="desc-text">
+               Please provide us with these details so we may assist you better.
+            </div>
+            <form action="#">
+               <div class="field">
+                  <input type="text" placeholder="Your Name" required>
+               </div>
+               <div class="field">
+                  <input type="text" placeholder="Email Address" required>
+               </div>
+               <div class="field">
+                  <button type="submit">Start Chat</button>
+               </div>
+            </form>
+         </div>
+      </div>
+   
+    </div>
+  </header>
+  
+  <section class="hero py-5 py-xl-6">
+    <div class="container">
+      <div class="row gy-5">
+        <div class="col-12">
+          <div class="row align-items-center gy-3 gy-md-0 gx-xl-5">
+            <div class="col-xs-12 col-md-6">
+              <div class="img-wrapper position-relative hcf-transform">
+                <a href="#!">
+                  <span class="badge rounded-pill text-bg-warning position-absolute top-10px start-10px">Sports</span>
+                  <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" src="../Photos/featured-image-1.jpg" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <div>
+                <p class="text-secondary mb-1">Nov 11, 2024</p>
+                <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Useful Skateboarding Tips For Beginners</a></h2>
+                <p class="mb-4">Learning how to skateboard can be a simultaneously exciting and terrifying experience. Explore the 20 top tips for beginner skaters.</p>
+                <a class="btn btn-primary" href="#!" target="_self">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="row align-items-center flex-row-reverse gy-3 gy-md-0 gx-xl-5">
+            <div class="col-xs-12 col-md-6">
+              <div class="img-wrapper position-relative hcf-transform">
+                <a href="#!">
+                  <span class="badge rounded-pill text-bg-warning position-absolute top-10px end-10px">Travel</span>
+                  <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" src="../Photos/featured-image-2.jpg" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <div>
+                <p class="text-secondary mb-1">Oct 9, 2024</p>
+                <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Strange Facts About Hot Air Balloons</a></h2>
+                <p class="mb-4">You think the Wright Brothers were impressive? Hot air balloons were carrying people through the air almost a century before the Wright Brothers were even born.</p>
+                <a class="btn btn-primary" href="#!" target="_self">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="row align-items-center gy-3 gy-md-0 gx-xl-5">
+            <div class="col-xs-12 col-md-6">
+              <div class="img-wrapper position-relative hcf-transform">
+                <a href="#!">
+                  <span class="badge rounded-pill text-bg-warning position-absolute top-10px start-10px">Photography</span>
+                  <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" src="../Photos/featured-image-3.jpg" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <div>
+                <p class="text-secondary mb-1">Sep 17, 2024</p>
+                <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Reasons Why Photography Is an Art Form</a></h2>
+                <p class="mb-4">Before the first photo was captured in the 18th century, lifelike images of what the eyes can see could only be made by talented artists.</p>
+                <a class="btn btn-primary" href="#!" target="_self">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="row align-items-center flex-row-reverse gy-3 gy-md-0 gx-xl-5">
+            <div class="col-xs-12 col-md-6">
+              <div class="img-wrapper position-relative hcf-transform">
+                <a href="#!">
+                  <span class="badge rounded-pill text-bg-warning position-absolute top-10px end-10px">Food</span>
+                  <img class="img-fluid rounded w-100 hcf-of-cover hcf-op-center hcf-ih-250 hcf-ih-md-400" loading="lazy" src="../Photos/featured-image-4.jpg" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <div>
+                <p class="text-secondary mb-1">Aug 23, 2024</p>
+                <h2 class="h1 mb-3"><a class="link-dark text-decoration-none" href="#!">Benefits of Having a Heavy Breakfast Every Morning</a></h2>
+                <p class="mb-4">Running late for work or school? "Let’s skip the breakfast!" Well, this might sound like the most ideal idea to save time when you are on the run.</p>
+                <a class="btn btn-primary" href="#!" target="_self">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../javascript/main.js"></script>
+</body>
+</html>
